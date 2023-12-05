@@ -4,15 +4,32 @@
 
 Instalação e configuração do Fortclient VPN usando OpenFortVPN
 
+- *Terminal ZSH
+
 ### Instalação do OpenFortVPN
+
+## Linux
 
 - [FortclientVPN](https://github.com/gabrielDpadua21/openfortivpn)
 
+## MacOS
+
+```
+brew install openfortivpn
+```
 
 ## Configuração
 
+### Linux
+
 ```bash
-bash config.sh
+bash linux.sh
+```
+
+### MacOS
+
+```bash
+bash mac.sh
 ```
 
 ## Instalação

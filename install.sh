@@ -2,7 +2,19 @@
 
 main() {
     mkdir ~/.config/scripts-fortvpn
-    cp alias.sh ~/.config/scripts-fortvpn/alias.sh
+
+    os=$(uname)
+
+    if [ $os == "Linux" ]
+    then
+        cp alias.sh ~/.config/scripts-fortvpn/alias.sh
+    elif [ $os == "Darwin" ]
+    then    
+        cp mac-alias.sh ~/.config/scripts-fortvpn/alias.sh 
+    else 
+        echo "OS not Suported, install linux noob"
+        exit 1
+    fi
 
     if [ $SHELL == "/usr/bin/zsh" ] || [ $SHELL == "/bin/zsh" ] 
     then
