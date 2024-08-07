@@ -25,7 +25,7 @@ main() {
 
     sudo mv /opt/homebrew/etc/openfortivpn/openfortivpn/config.template /opt/homebrew/etc/openfortivpn/openfortivpn/config.template.bkp
 
-    sudo cp config.tamplate /opt/homebrew/etc/openfortivpn/openfortivpn/confi.template
+    sudo cp config.tamplate /opt/homebrew/etc/openfortivpn/openfortivpn/config.template
 
 }
 
